@@ -1,0 +1,95 @@
+/* Importar fuente bonita */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+
+
+
+.navbar-inverse {
+    background-color: #222;
+    border: none;
+    padding: 10px 0;
+}
+
+.navbar-inverse .container-fluid {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.navbar-inverse .navbar-header {
+    flex-grow: 1;
+    text-align: center;
+    background-image: url('../img/copihues.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: contain;
+    padding-left: 45px;
+}
+
+
+.navbar-inverse .navbar-brand {
+    width: 500%;
+    float: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    color: white !important;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgb(25, 177, 238);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    background-image: url('../img/mapa_chile_h.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 300%;
+    height: 300%;
+}
+
+.navbar-inverse .navbar-nav {
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar-inverse .navbar-nav>li {
+    margin: 0 10px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #ffffff;
+    transition: color 0.2s ease;
+    text-decoration: none;
+}
+
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>li>a:hover {
+    color: rgb(250, 253, 38);
+}
+
+.footer-columns {
+    background-color: #222;
+    color: #ffffff;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+.footer-col.left {
+    text-align: left;
+}
+
+.footer-col.center {
+    text-align: center;
+}
+
+.footer-col.right {
+    text-align: right;
+}
+
+.footer-logo {
+    height: 70px;
+    width: auto;
+}
+
+.footer-columns p {
+    margin: 0;
+    font-size: 1.2rem;
+}
