@@ -37,11 +37,11 @@ Header con título: "Turismo Chile" (centrado, con fondo de color usando Bootstr
 
 Una sección con 3 cards de Bootstrap, cada una representando un destino:
 
-"Desierto de Atacama"
+"Desierto de Atacama" - boton con id="ver_mas_1"
 
-"Torres del Paine"
+"Torres del Paine" - boton con id="ver_mas_2"
 
-"Isla de Pascua"
+"Isla de Pascua" - boton con id="ver_mas_3"
 
 Cada card debe tener:
 
