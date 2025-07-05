@@ -1,0 +1,16 @@
+    /* Estilo opcional para que el contenedor tenga un fondo */
+        .container-fluid {
+            background-color: #0000007e; /* Gris oscuro */
+            padding: 200px;
+            border-radius: 8px;
+        
+
+        }
+.custom-zoom-btn {
+  transition: transform 0.2s ease-in-out; /* Suaviza la animación */
+}
+
+.custom-zoom-btn:hover {
+  transform: scale(1.40); /* Agranda el botón un 5% al pasar el ratón */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Añade una sombra sutil */
+}
