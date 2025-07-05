@@ -1,7 +1,6 @@
-    /* Estilo opcional para que el contenedor tenga un fondo */
+/* Estilo opcional para que el contenedor tenga un fondo */
         .container-fluid {
             background-color: #0000007e; /* Gris oscuro */
-            padding: 200px;
             border-radius: 8px;
         
 
@@ -14,3 +13,12 @@
   transform: scale(1.40); /* Agranda el botón un 5% al pasar el ratón */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Añade una sombra sutil */
 }
+
+#jorge {
+  display: none;
+  /* Ocultación del elemento inicialmente */
+  width: 100%;
+  padding: 10px 0;
+  text-align: center;
+  margin-top: 20px;
+  }

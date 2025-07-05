@@ -1,6 +1,7 @@
 /* Importar fuente bonita */
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
 
+
 .navbar-inverse {
     background-color: #222;
     border: none;
@@ -66,8 +67,7 @@
     color: #ffffff;
     padding: 10px 0;
     display: flex;
-    align-items: center;
-    position: fixed;
+    align-items: center;  
     bottom: 0;
     left: 0;
     width: 100%;
