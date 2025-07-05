@@ -1,8 +1,6 @@
 /* Importar fuente bonita */
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
 
-
-
 .navbar-inverse {
     background-color: #222;
     border: none;
@@ -24,7 +22,6 @@
     background-size: contain;
     padding-left: 45px;
 }
-
 
 .navbar-inverse .navbar-brand {
     width: 500%;
@@ -70,6 +67,13 @@
     padding: 10px 0;
     display: flex;
     align-items: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+
+    z-index: 1030;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.15);
 }
 
 .footer-col.left {
@@ -92,4 +96,8 @@
 .footer-columns p {
     margin: 0;
     font-size: 1.2rem;
+}
+
+body {
+    padding-bottom: 80px;
 }
